@@ -15,7 +15,7 @@ namespace Persistence.PostGreSql.Repositories
         }
         public IUnitOfWork Create()
         {
-            var connectionString = Environment.GetEnvironmentVariable("DB_CONNECTION_STRING") ?? "";
+            var connectionString = "User ID=germannunez;Password=Abc123;Server=postgres_image;Port=5432;Database=cardb;Pooling=true";// Environment.GetEnvironmentVariable("DB_CONNECTION_STRING") ?? "";
 
             if (_context.Disposed)
             {

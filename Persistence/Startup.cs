@@ -8,10 +8,11 @@ namespace Persistence
 {
     public static class Startup
     {
-        public static IServiceCollection AddPersistence(this IServiceCollection services)
+        public static IServiceCollection AddPersistence(this IServiceCollection services, string connectionString)
         {
             // Para obtener más información sobre cómo configurar la aplicación, visite https://go.microsoft.com/fwlink/?LinkID=316888
-            var connectionString = Environment.GetEnvironmentVariable("DB_CONNECTION_STRING") ?? "";
+            //var connectionString = Environment.GetEnvironmentVariable("DB_CONNECTION_STRING") ?? "";
+            
             services.AddDbContext<DatabaseContext>(options =>
                 options.UseNpgsql(connectionString)
             );

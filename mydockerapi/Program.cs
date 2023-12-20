@@ -10,7 +10,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddApplication();
 builder.Services.AddControllers();
-builder.Services.AddPersistence();
+builder.Services.AddPersistence(builder.Configuration.GetConnectionString("DefaultConnection"));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

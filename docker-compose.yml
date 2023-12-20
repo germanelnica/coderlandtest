@@ -15,22 +15,24 @@ services:
     ports:
       - "8081:80"
     environment:
-      DB_CONNECTION_STRING: "host=postgres_image;port=5432;database=cardb;username=germannunez;password=Abc123"
+      - ConnectionStrings__DefaultConnection=User ID=germannunez;Password=Abc123;Server=postgres_image;Port=5432;Database=cardb;Pooling=true;
+      - ASPNETCORE_URLS=http://+:80
+      # DB_CONNECTION_STRING: "host=postgres_image;port=5432;database=cardb;username=germannunez;password=Abc123"
     networks:
       - mydockerapi-dev
 
   postgres_image:
     image: postgres:latest
     ports:
-      - "5432"
+      - "5433:5432"
     restart: always
     volumes:
       - db_volume:/var/lib/postgresql/data
-      - ./dbscripts/seed.sql :/docker-entrypoint-initdb.d/seed.sql
+      - ./mydockerapi/dbscripts/seed.sql :/docker-entrypoint-initdb.d/seed.sql
     environment:
-      POSTGRES_USER: "germannunez"
-      POSTGRES_PASSWORD: "Abc123"
-      POSTGRES_DB: "cardb"
+      - POSTGRES_USER=germannunez
+      - POSTGRES_PASSWORD=Abc123
+      - POSTGRES_DB=cardb
     networks:
       - mydockerapi-dev
 volumes:
