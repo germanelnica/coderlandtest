@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "UiRZ2kDh6ZGdHiGIzv3KkkuJPNDI9V9VLgROwpWaCiuIISyeTJ05dBbovUmAPwl8FHBOxnmJb38qiZHmcqSsqg==",
+  "dgSpecHash": "carlNHNcFXSAWeF1S78sRbhnRAqC+AKJ8yzzHlM/GZ+91/XNgntIfPQycszVle9tRLEkVp6qdY0YEHaRLKZwiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Intel Core I7\\source\\repos\\MyDockerApi\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\Intel Core I7\\source\\repos\\coderlandtest\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Intel Core I7\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Intel Core I7\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\Intel Core I7\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjectionfixed\\5.1.2\\mediatr.extensions.microsoft.dependencyinjectionfixed.5.1.2.nupkg.sha512",
+    "C:\\Users\\Intel Core I7\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "C:\\Users\\Intel Core I7\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
     "C:\\Users\\Intel Core I7\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0\\microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Intel Core I7\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.0\\microsoft.entityframeworkcore.analyzers.8.0.0.nupkg.sha512",

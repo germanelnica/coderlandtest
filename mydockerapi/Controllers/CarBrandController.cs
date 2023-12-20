@@ -4,6 +4,8 @@ using Application.CarBrands.Commands;
 
 namespace mydockerapi.Controllers
 {
+    [Route("[controller]")]
+    [ApiController]
     public class CarBrandController : Controller
     {
         private readonly IMediator _mediator;

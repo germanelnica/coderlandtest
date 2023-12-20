@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ukaU8JWNjRm3XPxflQcKMkECfbH2Nx8Olacjz8Cuz2JoDrET9IMB9AGD/op3kbDx6dO2mwnU0qx9cJSKtcbkjQ==",
+  "dgSpecHash": "JXHeo3ca6J9/9vwdn3S3E4DVL6sl9tSC5EqqNYB6BWSVa20ayg8NhIogvbt2tRBzp2AUEk+kdmA2fZ5D9IMAOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Intel Core I7\\source\\repos\\MyDockerApi\\mydockerapi\\mydockerapi.csproj",
+  "projectFilePath": "C:\\Users\\Intel Core I7\\source\\repos\\coderlandtest\\mydockerapi\\mydockerapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Intel Core I7\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Intel Core I7\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\Intel Core I7\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjectionfixed\\5.1.2\\mediatr.extensions.microsoft.dependencyinjectionfixed.5.1.2.nupkg.sha512",
+    "C:\\Users\\Intel Core I7\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "C:\\Users\\Intel Core I7\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
     "C:\\Users\\Intel Core I7\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
     "C:\\Users\\Intel Core I7\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0\\microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",

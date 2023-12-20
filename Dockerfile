@@ -3,13 +3,13 @@ WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-
-COPY *.csproj ./
+COPY ["./mydockerapi.sln", "."]
+COPY ["mydockerapi/mydockerapi.csproj", "mydockerapi/"]
 COPY ["Application/Application.csproj", "Application/"]
-
-RUN dotnet restore
-COPY . ./
-
+COPY ["Domain/Domain.csproj", "Domain/"]
+COPY ["Persistence/Persistence.csproj", "Persistence/"]
+RUN dotnet restore "mydockerapi/mydockerapi.csproj"
+COPY . .
 RUN dotnet publish -c Release -o out
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS final-env

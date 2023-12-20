@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "VFNQKfXNTEUmlnCHOzzC21wUskW+6FJH5+WZn5fyQ8LKb9Be1rkoHXicYz+tYn7lmT8JSME/Bk+ThpqaIK9Okw==",
+  "dgSpecHash": "a0xoggbi8EXrS8fdAncFiHiLtUSvm49EnZ4KnHD3uVEZjITje+TEz+TomgsFW1+cadBtF+3oW4LecJ3PtF5GxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Intel Core I7\\source\\repos\\MyDockerApi\\Persistence\\Persistence.csproj",
+  "projectFilePath": "C:\\Users\\Intel Core I7\\source\\repos\\coderlandtest\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Intel Core I7\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Intel Core I7\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\Intel Core I7\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjectionfixed\\5.1.2\\mediatr.extensions.microsoft.dependencyinjectionfixed.5.1.2.nupkg.sha512",
+    "C:\\Users\\Intel Core I7\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "C:\\Users\\Intel Core I7\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
     "C:\\Users\\Intel Core I7\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0\\microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Intel Core I7\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.0\\microsoft.entityframeworkcore.analyzers.8.0.0.nupkg.sha512",

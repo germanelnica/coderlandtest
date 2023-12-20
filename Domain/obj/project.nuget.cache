@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n3+NsY+nyFaJx0vLTIbq7quROBv/9ULuqO58Jmr13BAyUJ4oArPU8+XD3U0GeREpRSXCFOaCrbvPY9e0s8Gj2Q==",
+  "dgSpecHash": "KyQfNkPPIhaQqL8BJfWVCgw5lYzho1moyqm7s0i4b/gXjOqRN0HFGGSxRglLq7K1jHGZoKhbYuf/AvQSCMkvuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Intel Core I7\\source\\repos\\MyDockerApi\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\Intel Core I7\\source\\repos\\coderlandtest\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
